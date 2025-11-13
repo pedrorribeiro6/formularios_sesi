@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <div id="açaiajin">
+
     <h1>FORMULARIO SUPERAÇAIJIN</h1>
-    </div>
+
     <br>
     <br>
     <form id="exemplo01">
@@ -19,16 +19,16 @@
             <legend>Dados Pessoais</legend>
             <label type="text" name="nome">Nome:</label>
             <p></p>
-            <input type="text" name="nome"><br><br>
+            <input type="text" name="nome" class="linhas"><br><br>
             <label type="number" name="age">Idade:</label>
             <p></p>
-            <input type="number" name="age"><br><br>
-            <label type="tel" name="telefone">Telefone:</label>
+            <input type="number" name="age" class="linhas"><br><br>
+            <label type="number" name="telefone">Telefone:</label>
             <p></p>
-            <input type="tel" name="telefone"><br><br>
+            <input type="number" name="telefone" class="linhas"><br><br>
             <label type="text" name="endereço">Endereço:</label>
             <p></p>
-            <input type="text" name="endereço"><br><br>
+            <input type="text" name="endereço" class="linhas"><br><br>
 
             <select>
                 <option>Planeta Terra</option>
@@ -47,11 +47,11 @@
             <br>
             <label for="raca"> Raça do universo 7 preferida</label>
             <select name="raca_p" id="raca_p">
-                <option>Terráqueo</option>
-                <option>Sayajin</option>
-                <option>Namekuseijin</option>
-                <option>Androie</option>
-                <option>Arcosiano</option>
+                <option class="opcao">Terráqueo</option>
+                <option class="opcao">Sayajin</option>
+                <option class="opcao">Namekuseijin</option>
+                <option class="opcao">Androie</option>
+                <option class="opcao">Arcosiano</option>
             </select><br><br>
             <label for="job">Trabalho:</label>
             <input type="radio" name="job" class="job" value="autonomo">
@@ -72,7 +72,7 @@
             <input type="checkbox" name="area2" value="com_banana">Com Banana
             <input type="checkbox" name="area3" value="com_morango">Com Morango
             <input type="checkbox" name="area4" value="com_granola">Com granola
-            <input type="checkbox" name="area4" value="gosto_terra">Tem gosto de Terra
+            <input type="checkbox" name="area5" value="gosto_terra">Tem gosto de Terra
         </fieldset>
     </form>
     <br>
@@ -92,17 +92,18 @@
         </fieldset>
     </form>
     <br>
-    <form>
+    <form id="bloco_texto">
         <fieldset>
             <label for="observation">Observações:</label><br>
-            <textarea name="observation" id="observation"
-            cols="195" rows="8" placeholder="Escreva suas observações aqui...Eu gosto de açai porque..." >
-            </textarea>
+            <textarea name="observation" id="observation" cols="195" rows="8"></textarea>
         </fieldset>
     </form>
+    <!-- Escrevndo todos os forms -->
     <br>
-    <button type="submit">Enviar</button>
-    <button>Limpar</button>
+    <button type="submit">ENVIAR</button>
+    <button>LIMPAR</button>
+    <!-- Fazendo os botões -->
 </body>
 
 </html>
+<!-- Todo o html feito -->

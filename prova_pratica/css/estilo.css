@@ -1,8 +1,22 @@
-body{
+body {
     background-color: indigo;
+    background-image: url(../imagens/goku.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 30%;
+    /* Definindo a posição do goku e o background da página */
+
 }
 
-#açaiajin{
+fieldset,
+legend,
+label {
+    color: white;
+    /* Cor dos textos */
+}
+
+h1 {
     background-color: darkmagenta;
     border: 2px;
     border-radius: 5px;
@@ -10,9 +24,40 @@ body{
     text-align: center;
     color: goldenrod;
     border-color: goldenrod;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    /* Definindo o título em cima */
 }
 
-fieldset{
-    border-color: goldenrod;
+fieldset {
+    border-color: gold;
+    border-width: 4px;
+    /* Definindo as bordas */
 }
+
+.linhas {
+    width: 60%;
+    /* Definindo os espaçamentos das caixas de texto */
+}
+
+button {
+    background-color: rgb(188, 22, 188);
+    color: white;
+    border-radius: 8px;
+    border-color: rgb(188, 22, 188);
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    /* Definindo os botões */
+
+}
+
+select {
+    cursor: pointer;
+}
+
+#bloco_texto input,textarea{
+      resize: none;
+      /* Ajustando pra engrçadinho não mexer */
+}
+
+/* CSS finalizado */
