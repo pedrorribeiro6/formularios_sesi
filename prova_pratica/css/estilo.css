@@ -1,0 +1,18 @@
+body{
+    background-color: indigo;
+}
+
+#açaiajin{
+    background-color: darkmagenta;
+    border: 2px;
+    border-radius: 5px;
+    border-style: dotted;
+    text-align: center;
+    color: goldenrod;
+    border-color: goldenrod;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+fieldset{
+    border-color: goldenrod;
+}

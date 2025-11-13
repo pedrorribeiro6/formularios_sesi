@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
+
 <body>
-    
+    <div id="açaiajin">
+    <h1>FORMULARIO SUPERAÇAIJIN</h1>
+    </div>
+    <br>
+    <br>
+    <form id="exemplo01">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label type="text" name="nome">Nome:</label>
+            <p></p>
+            <input type="text" name="nome"><br><br>
+            <label type="number" name="age">Idade:</label>
+            <p></p>
+            <input type="number" name="age"><br><br>
+            <label type="tel" name="telefone">Telefone:</label>
+            <p></p>
+            <input type="tel" name="telefone"><br><br>
+            <label type="text" name="endereço">Endereço:</label>
+            <p></p>
+            <input type="text" name="endereço"><br><br>
+
+            <select>
+                <option>Planeta Terra</option>
+                <option>Marte</option>
+                <option>Planeta Vegeta</option>
+                <option>Saturno</option>
+                <option>Vênus</option>
+            </select>
+
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Dados Extras</legend>
+            <br>
+            <label for="raca"> Raça do universo 7 preferida</label>
+            <select name="raca_p" id="raca_p">
+                <option>Terráqueo</option>
+                <option>Sayajin</option>
+                <option>Namekuseijin</option>
+                <option>Androie</option>
+                <option>Arcosiano</option>
+            </select><br><br>
+            <label for="job">Trabalho:</label>
+            <input type="radio" name="job" class="job" value="autonomo">
+            <label for="autonomo">Autonomo</label>
+            <input type="radio" name="job" class="job" value="empregado">
+            <label for="empregado">Empregado CLT</label>
+            <input type="radio" name="job" class="job" value="empresario">
+            <label for="empresario">Empresário</label>
+            <input type="radio" name="job" class="job" value="tipo_goku">
+            <label for="tipo_goku">Tipo Goku</label> <br><br>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Seu açai preferido é de que jeito?</legend>
+            <input type="checkbox" name="area1" value="puro">Puro
+            <input type="checkbox" name="area2" value="com_banana">Com Banana
+            <input type="checkbox" name="area3" value="com_morango">Com Morango
+            <input type="checkbox" name="area4" value="com_granola">Com granola
+            <input type="checkbox" name="area4" value="gosto_terra">Tem gosto de Terra
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Qual o tamanho preferido?</legend>
+            <input type="radio" name="tamanho" class="tamanho" value="500">
+            <label for="500">500ml</label>
+            <input type="radio" name="tamanho" class="tamanho" value="300">
+            <label for="300">300ml</label>
+            <input type="radio" name="tamanho" class="tamanho" value="100">
+            <label for="100">100ml</label>
+            <input type="radio" name="tamanho" class="tamanho" value="casquinha">
+            <label for="casquinha">Casquinha</label>
+            <input type="radio" name="tamanho" class="tamanho" value="terra_entendeu">
+            <label for="terra_entendeu">Qual parte do gosto da terra você não entendeu</label>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <label for="observation">Observações:</label><br>
+            <textarea name="observation" id="observation"
+            cols="195" rows="8" placeholder="Escreva suas observações aqui...Eu gosto de açai porque..." >
+            </textarea>
+        </fieldset>
+    </form>
+    <br>
+    <button type="submit">Enviar</button>
+    <button>Limpar</button>
 </body>
+
 </html>
